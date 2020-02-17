@@ -1,0 +1,14 @@
+---
+title: "database"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Data from [Atlas Brasil](http://atlasbrasil.org.br/2013/pt/download/)
+```{r}
+idh_gini <- readxl::read_xlsx("idh_census.xlsx", sheet = 2)
+```
+
