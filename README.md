@@ -1,2 +1,2 @@
 # databases
-datas from my local pc
+datas for personal use
