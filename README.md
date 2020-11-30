@@ -14,3 +14,5 @@ To import to R:
 transp <- rio::import("https://github.com/ronycoelho/databases/raw/master/D01_Ranking_da_Transpar%C3%AAncia_2016.xlsx", skip=2) %>% 
   janitor::clean_names()
 
+# Bases do IBGE
+[repositório IBGE](ftp://ftp.ibge.gov.br/)
